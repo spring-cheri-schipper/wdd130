@@ -15,10 +15,14 @@
 body {
     font-family: "Roboto", serif;
     background-color: #949494;
-
 }
-header,main,footer{
-    max-width: 960px; margin: 0 auto;}
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 .logo {
     width: 80px;
@@ -33,9 +37,6 @@ header,main,footer{
 nav a {
     display: inline;
 }
-
-
-
 
 .hero {
     position: relative;
@@ -54,35 +55,31 @@ h1 {
     padding: 15px;
     position: absolute;
     font-size: 1.5rem;
-    top: 65px;
+    top: 50px;
     width: 100%;
+    text-align: center;
 }
-
-
 
 article {
     position: absolute;
-    top: 285px;
-    left: 495px;
+    top: 100px;
+    left: 820px;
 }
 
-
-
 article img {
-
     float: right;
-    width: 100px;
+    width: 50%;
 }
 
 h2 {
     font-family: "Roboto", serif;
     font-weight: 800;
-    color: #1B03A3;
+    color: #0A0908;
 }
 
 h2 {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-block-start: 1.00em;
     margin-block-end: 1.00em;
     margin-inline-start: 8px;
@@ -97,14 +94,10 @@ p {
 }
 
 img {
-    display: block;
+    display: inline;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    /*margin-inline-start: 8px;
-    margin-inline-end: 8px;
-    unicode-bidi: isolate;*/
 }
-
 nav a img {
     display: inline;
 }
@@ -117,4 +110,5 @@ footer {
     display: inline;
     unicode-bidi: isolate;
     text-decoration: none;
+    text-indent: 280px;
 }

@@ -77,16 +77,6 @@ h2 {
     color: #0A0908;
 }
 
-h2 {
-    display: block;
-    font-size: 1.5rem;
-    margin-block-start: 1.00em;
-    margin-block-end: 1.00em;
-    margin-inline-start: 8px;
-    margin-inline-end: 8px;
-    unicode-bidi: isolate;
-}
-
 p {
     font-family: "Roboto", serif;
     font-weight: 800;
@@ -98,17 +88,10 @@ img {
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+
 nav a img {
     display: inline;
 }
 
-footer {
-    color: #0A0908
-}
-
-footer {
-    display: inline;
-    unicode-bidi: isolate;
-    text-decoration: none;
-    text-indent: 470px;
+a { text-decoration: none;
 }

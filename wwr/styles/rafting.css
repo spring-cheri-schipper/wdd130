@@ -34,14 +34,13 @@ header, main, footer {
 
 img {
     width: 100%;
-    height: 0 auto;
+    height: auto;
 }
 
 a  {
     text-decoration: none;
     max-width:130px;
-    color: white;
-    align-items: right;
+    color: white;;
 }
 
 header {
@@ -120,7 +119,6 @@ article p {
     font-family: "Roboto", serif;
     font-weight: 900;
     color: white;
-    font-weight: 100px;
     font-size: 1.3rem;
 }
 
@@ -129,13 +127,11 @@ article p {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-
 }
 
 .threecols {
     display: grid;
-    grid-template-columns: repeat (3, 1fr);
-    gap: 1rem;
+    grid-template-columns: (3, 1fr);
 }
 
 .threecols h2 {
@@ -144,7 +140,6 @@ article p {
 
 .threecols img {
     width: 180px;
-    box-shadow: white;
     margin: 0 auto;
 }
 
@@ -166,8 +161,6 @@ figcaption {
 }
 
 footer {
-    text-align: bottom;
-    margin-top: rem;
     padding:60px;
     background-color: gray;
 }

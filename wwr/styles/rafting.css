@@ -126,7 +126,7 @@ article p {
     display: grid;
     gap: 2rem;
     justify-content: center;
-    iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5992271.464158313!2d-116.38446224458356!3d42.832434613321944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhite%20water%20rapids%20idaho!5e0!3m2!1sen!2sus!4v1739437570964!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 }
 
 .threecols {

@@ -15,21 +15,27 @@
 
 body {
     font-family: "Roboto", serif;
-    background-color: black;
+    background-color: white;
 }
 
 h1, h2 { 
     font-family: "Roboto", serif;
     font-weight: 900;
     font-size: 2.5rem;
-    color: white;
+    color: black;
+}
+h3{
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-size: 1.9rem;
+    color: black;
 }
 
 header, main, footer {
     max-width: 960px;
     margin: 0 auto;
-    font-size: 1.0rem;
-    color: white
+    font-size: 1.2rem;
+    color: black;
 }
 
 img {
@@ -40,7 +46,7 @@ img {
 a  {
     text-decoration: none;
     max-width:130px;
-    color: white;
+    color: black;
 }
 
 header {
@@ -49,7 +55,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background-color: gray;
+    background-color: lightgray;
 }
 
 header img {
@@ -89,7 +95,7 @@ header nav a {
     text-align: center;
     font-size: 1.8rem;
     color: black;
-    background-color: white;
+    background-color: #00F5D4
 }
 
 
@@ -106,7 +112,7 @@ article {
     position: absolute;
     bottom: 50px;
     right: 30px;
-    background-color: black;
+    background-color: #ECECEC;
     font-size: 1.0rem;
 }
 
@@ -118,7 +124,7 @@ article img {
 article p {
     font-family: "Roboto", serif;
     font-weight: 900;
-    color: white;
+    color:black;
     font-size: 1.3rem;
 }
 
@@ -165,7 +171,7 @@ figcaption {
 
 footer {
     padding:60px;
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .sociallinks {
@@ -183,7 +189,7 @@ form {
     margin: 0 auto;
     border: 10px solid white;
     border-radius: 0.5rem;
-    background-color: #FAFAFA;
+    background-color: #ECECEC;
     display: grid;
     color: black;
     font-size: 1.5rem;
@@ -226,7 +232,7 @@ input[type="checkbox"] {
     height: 22px;
 }
 
-button{
+button {
     margin: 1rem;
     background-color: navy;
     color: #fff;
@@ -235,6 +241,7 @@ button{
     padding: .75rem;
     font-size: 1.2rem;
 }
+
 button:hover {
     background-color: darkgreen;
 }
@@ -264,4 +271,56 @@ input[type="radio"] {
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+.text-box p {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    color: #1B03A3;
+    font-size: 1.2rem;
+}
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    color: #1B03A3;
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+
+.text-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0,0,0, 0.1);
+    max-width: 300px;
+    background-color: #ECECEC;
+}
+
+.text-box {
+    display: inline-flex;
+    width: auto;
+    height: 610px;
+    margin-left: 105px;
+}
+
+table, th, tr, td {
+    border:1px solid black;
+    padding: 15px;
+    margin: 104px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color:navy;
+    color:white;
+    text-decoration: none;
+    border-radius:5px;
+    cursor: pointer;
+    margin: 350px
+}
+
+.cta-button:hover{
+background-color: darkgreen;
 }
